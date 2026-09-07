@@ -1,6 +1,6 @@
 export default function sitemap(){
   const base=process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
-  const routes=['','/about','/portfolio','/services','/albums','/packages','/wedding-photography','/pre-wedding','/films','/portraits','/contact','/privacy','/terms'];
+  const routes=['','/about','/portfolio','/services','/albums','/packages','/wedding-photography','/wedding-photographer-salem','/wedding-photographer-dharmapuri','/wedding-photographer-krishnagiri','/wedding-photographer-vellore','/wedding-photographer-ambur','/pre-wedding','/films','/portraits','/contact','/privacy','/terms'];
   return routes.map(route=>({
     url:`${base}${route}`,
     lastModified:new Date(),

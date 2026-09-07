@@ -244,11 +244,11 @@ export default function Home() {
             </p>
 
             <div className="location-list" aria-label="Primary service locations">
-              <span>Salem</span>
-              <span>Dharmapuri</span>
-              <span>Krishnagiri</span>
-              <span>Vellore</span>
-              <span>Ambur</span>
+              <a href="/wedding-photographer-salem">Salem</a>
+              <a href="/wedding-photographer-dharmapuri">Dharmapuri</a>
+              <a href="/wedding-photographer-krishnagiri">Krishnagiri</a>
+              <a href="/wedding-photographer-vellore">Vellore</a>
+              <a href="/wedding-photographer-ambur">Ambur</a>
               <span>Tamil Nadu</span>
             </div>
 
