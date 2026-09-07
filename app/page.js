@@ -226,6 +226,39 @@ export default function Home() {
         <div className="quote-person"><span>CLIENT NAME</span><small>WEDDING · CHENNAI</small></div>
       </section>
 
+      <section className="locations-section" aria-labelledby="locations-title">
+        <div className="locations-inner">
+          <div className="locations-heading">
+            <p className="eyebrow">WEDDING PHOTOGRAPHY ACROSS TAMIL NADU</p>
+            <h2 id="locations-title">
+              Wherever your story <em>takes you.</em>
+            </h2>
+          </div>
+
+          <div className="locations-content">
+            <p>
+              From intimate ceremonies to grand celebrations, Sri Rajan Photography
+              captures weddings with timeless photography and cinematic films across
+              Salem, Dharmapuri, Krishnagiri, Vellore, Ambur and destinations
+              throughout Tamil Nadu.
+            </p>
+
+            <div className="location-list" aria-label="Primary service locations">
+              <span>Salem</span>
+              <span>Dharmapuri</span>
+              <span>Krishnagiri</span>
+              <span>Vellore</span>
+              <span>Ambur</span>
+              <span>Tamil Nadu</span>
+            </div>
+
+            <a href="/contact" className="text-link">
+              Plan your celebration <Arrow />
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section className="contact" id="contact">
         <div>
           <p className="eyebrow">YOUR STORY STARTS HERE</p>
