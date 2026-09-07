@@ -5,14 +5,14 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Sri Rajan Photography | Weddings, Films, Albums & Frames',
+    default: 'Sri Rajan Photography | Wedding Photography in Tamil Nadu',
     template: '%s | Sri Rajan Photography',
   },
   description:
-    'Sri Rajan Photography creates timeless wedding photography, cinematic films, pre-wedding stories, portraits, premium albums and custom photo frames.',
+    'Sri Rajan Photography offers candid wedding photography, cinematic wedding films and premium albums across Salem, Dharmapuri, Krishnagiri, Vellore, Ambur and Tamil Nadu.',
   keywords: [
     'Sri Rajan Photography', 'wedding photography', 'wedding photographer', 'cinematic wedding films',
-    'pre wedding photography', 'portrait photography', 'wedding albums', 'photo frames', 'Tamil Nadu photography studio'
+    'pre wedding photography', 'portrait photography', 'wedding albums', 'photo frames', 'wedding photographer Salem', 'wedding photographer Dharmapuri', 'wedding photographer Krishnagiri', 'wedding photographer Vellore', 'wedding photographer Ambur', 'Tamil Nadu wedding photographer'
   ],
   authors: [{ name: 'Sri Rajan Photography' }],
   creator: 'Sri Rajan Photography',
@@ -23,14 +23,14 @@ export const metadata = {
     locale: 'en_IN',
     url: '/',
     siteName: 'Sri Rajan Photography',
-    title: 'Sri Rajan Photography | Stories Live Forever',
-    description: 'Wedding photography, cinematic films, albums, frames and portraits crafted to preserve how your story felt.',
+    title: 'Sri Rajan Photography | Wedding Photography in Tamil Nadu',
+    description: 'Candid wedding photography and cinematic films across Salem, Dharmapuri, Krishnagiri, Vellore, Ambur and Tamil Nadu.',
     images: [{ url: '/hero-wedding-local.jpg', width: 1536, height: 1024, alt: 'Sri Rajan Photography wedding photography' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sri Rajan Photography | Stories Live Forever',
-    description: 'Wedding photography, cinematic films, albums, frames and portraits.',
+    title: 'Sri Rajan Photography | Wedding Photography in Tamil Nadu',
+    description: 'Wedding photography and cinematic films across Salem, Dharmapuri, Krishnagiri, Vellore, Ambur and Tamil Nadu.',
     images: ['/hero-wedding-local.jpg'],
   },
   icons: { icon: '/icon.png', apple: '/apple-icon.png' },
@@ -45,7 +45,15 @@ const structuredData = {
   email: 'rajanst67@gmail.com',
   image: `${siteUrl}/hero-wedding-local.jpg`,
   priceRange: '$$',
-  description: 'Wedding photography, cinematic films, pre-wedding stories, portraits, albums and custom frames.',
+  areaServed: [
+    { '@type': 'City', name: 'Salem' },
+    { '@type': 'City', name: 'Dharmapuri' },
+    { '@type': 'City', name: 'Krishnagiri' },
+    { '@type': 'City', name: 'Vellore' },
+    { '@type': 'City', name: 'Ambur' },
+    { '@type': 'State', name: 'Tamil Nadu' },
+  ],
+  description: 'Wedding photography, candid photography, cinematic films, pre-wedding stories, portraits and premium albums across Salem, Dharmapuri, Krishnagiri, Vellore, Ambur and Tamil Nadu.',
 };
 
 export default function RootLayout({ children }) {
